@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flexbox and Grid</title>
+    <style>
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        .card {
+            background-color: lightblue;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            margin: 10px 0px 10px 0px;
+        }   
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Projects</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <div class="card">
+                <h3>HTML</h3>
+                <p>Creating webpages.</p>
+            </div>
+            <div class="card">
+                <h3>CSS</h3>
+                <p>Designing webpages.</p>
+            </div>
+            <div class="card">
+                <h3>JavaScript</h3>
+                <p>Making webpages interactive.</p>
+            </div>
+       </div>
+    </main>
+    <footer>
+        <p>Copyright 2026 My Portfolio</p>
+    </footer>
+</body>
+</html>

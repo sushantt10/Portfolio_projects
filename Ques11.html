@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Newspaper Layout</title>
+    <style>
+        header {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+            padding: 30px;
+        }
+        .box {
+            background-color: lightgray;
+            padding: 20px;
+            border: 1px solid gray;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>THE DAILY NEWS</h1>
+        <p>Your Daily Newspaper</p>
+    </header>
+    <main class="container">
+        <section class="box">
+            <h2>Technology</h2>
+            <h3>Future of Technology</h3>
+        </section>
+        <section class="box">
+            <h2>Education</h2>
+            <h3>Importance of Education</h3>
+        </section>
+        <section class="box">
+            <h2>Sports</h2>
+            <h3>Latest Sports News</h3>
+        </section>
+    </main>
+    <footer>
+        <p>© 2026 The Daily News</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio Projects Grid</title>
+    <style>
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 150px 150px;
+            gap: 20px;
+        }
+        .pp1 {
+            grid-column: span 2;
+        }
+        .project-grid div{
+            border: 2px solid black;
+            border-radius: 4%;
+        }
+        .project-grid h3{
+            padding: 10px;
+            padding-bottom: 0;
+        }
+        .project-grid p{
+            padding: 10px;
+            padding-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <p>My Recent Projects</p>
+    </header>
+    <main>
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <div class="pp1">
+                <h3>Website Design</h3>
+                <p>A simple website using HTML and CSS.</p>
+            </div>
+            <div class="pp2">
+                <h3>JavaScript Project</h3>
+                <p>An interactive webpage.</p>
+            </div>
+            <div class="pp3">
+                <h3>Python Project</h3>
+                <p>A basic Python application.</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Design Tokens and Typography</title>
+    <style>
+        :root {
+            --main-color: #C9D0C3;
+            --text-color: #000000;
+            --secondary-color: #625F60;
+            --card-color: #FFFFFF;
+            --heading-size: 32px;
+            --subheading-size: 22px;
+            --body-size: 16px;
+            --small-space: 10px;
+            --medium-space: 20px;
+        }
+        body {
+            background-color: var(--main-color);
+            color: var(--text-color);
+            font-size: var(--body-size);
+        }
+        h1 {
+            font-size: var(--heading-size);
+        }
+        h2 {
+            font-size: var(--subheading-size);
+        }
+        .card {
+            background-color: var(--card-color);
+            padding: var(--medium-space);
+            margin-top: var(--medium-space);
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My Website</h1>
+    <h2>Design Tokens and Typography</h2>
+    <div class="card">
+        <h2>My Card</h2>
+    </div>
+</body>
+</html>
