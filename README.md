@@ -11,7 +11,6 @@ You can view each project directly in your browser:
 
 | Project | Live Demo |
 |---|---|
-| Ques3.html | [View Project](https://sushantt10.github.io/Portfolio_projects/Ques3.html) |
 | Ques5.html | [View Project](https://sushantt10.github.io/Portfolio_projects/Ques5.html) |
 | Ques6.html | [View Project](https://sushantt10.github.io/Portfolio_projects/Ques6.html) |
 | Ques7.html | [View Project](https://sushantt10.github.io/Portfolio_projects/Ques7.html) |
